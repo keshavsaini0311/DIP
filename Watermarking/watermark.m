@@ -12,7 +12,7 @@ watermark = zeros(size(img));
 
 % Display the watermark image and add text to it
 figure; imshow(watermark, []); hold on;
-text(size(img,2)/2, size(img,1)/2, 'DJP', 'FontSize', 50, 'Color', 'white', ...
+text(size(img,2)/2, size(img,1)/2, 'KSV', 'FontSize', 50, 'Color', 'white', ...
     'FontWeight', 'bold', 'HorizontalAlignment', 'center');
 
 % Capture the frame and convert it to an image
